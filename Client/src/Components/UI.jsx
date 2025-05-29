@@ -139,11 +139,11 @@ const UI = () => {
               rel="noopener noreferrer"
               style={{ color: '#00C853', fontWeight: 'medium', textDecoration: 'none' }}
             >
-              TheSportsDB
+              football-data.org
             </a>
           </Typography>
           <Typography variant="caption" sx={{ color: 'text.secondary', fontSize: { xs: '0.625rem', md: '0.75rem' } }}>
-            API: https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=4328
+            API: https://api.football-data.org/v4/competitions/CL/matches?status=SCHEDULED
           </Typography>
         </Container>
       </Box>
