@@ -134,7 +134,7 @@ const UI = () => {
           <Typography variant="body2" sx={{ color: 'text.secondary', mb: 1, fontSize: { xs: '0.75rem', md: '0.875rem' } }}>
             Powered by{' '}
             <a
-              href="https://www.thesportsdb.com"
+              href="https://api.football-data.org/v4/competitions/CL/matches?status=SCHEDULED"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: '#00C853', fontWeight: 'medium', textDecoration: 'none' }}
